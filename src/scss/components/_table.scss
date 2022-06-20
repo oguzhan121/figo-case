@@ -1,0 +1,70 @@
+.c-table{
+    margin-top: 3rem;
+    &__area{
+        margin-top: 1rem!important;
+    }
+    &__wrapper{
+        position: relative;
+        margin-top: 3rem;
+        overflow-y: scroll;
+        padding-top: 30px;
+    }
+    &__total{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    &__total__text{
+        color: $primary;
+    }
+    &__confirm__invoice{
+        &.js-hide{
+            display: none;
+        }
+        span{
+            display: block;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        a{
+            width: 20%;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+    h1{
+        text-align: center;
+    }
+    thead{
+        th{
+            font-weight: 400!important;
+            font-size: 14px;
+            color: $link-color;
+        }
+    }
+    .dataTables_wrapper{
+        margin-bottom: 3rem;
+    }
+    .dataTables_filter{
+        margin-bottom: 2rem;
+    }
+    tbody{
+        td{
+            font-size: 12px;
+        }
+    }
+    .dataTables_info{
+        display: none;
+    }
+    .dataTables_paginate{
+        display: none;
+    }
+    .dataTables_length{
+        display: none;
+    }
+    
+   #js-table-invoice-selected_wrapper{
+    margin-top: 5rem;
+   }
+
+}

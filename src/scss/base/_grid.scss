@@ -1,0 +1,13 @@
+.o-container{
+    @include respond-to-up('lg'){
+        max-width: $grid-container-desktop;
+    }
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.o-page-content{
+    padding: 20px 0;
+}

@@ -1,0 +1,45 @@
+.o-header{
+    padding: 20px 0;
+    position: relative;
+    border-bottom: 1px solid;
+    border-color: $primary-border-color;
+   
+    &__row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__img{
+        width: 100%;
+        @include respond-to-up('sm'){
+            width: 160px;
+            height: 37px;
+        }
+    }
+    &__menu{
+        width: 33%;
+    }
+    &__logo{
+        width: 33%;
+        text-align: center;
+    }
+    &__auth{
+        width: 33%;
+        text-align: right;
+    }
+    a{
+        opacity: 0;
+        visibility: hidden;
+        font-size: 12px;
+        @include respond-to-up('sm'){
+            font-size: 15px;
+        }
+    }
+    &--active{
+        a{
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    
+}

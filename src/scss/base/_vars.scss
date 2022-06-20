@@ -1,0 +1,56 @@
+// Path
+//
+// Folder path settings
+$img-path:               "../../img" !default;
+$uploads-path:           "../assets/uploads/" !default;
+$font-path:              "../../fonts/" !default;
+
+
+// Grid
+//
+// Media code screen size and grid
+$grid-container-desktop: 1200px !default;
+$grid-container-desktop-large: 1270px !default;
+
+
+// -----------------------------------------------------------------------------
+// Theme Color
+// -----------------------------------------------------------------------------
+
+// Base Color
+$base:                   rgba(73, 80, 87) !default;
+
+// Primary Colors
+$primary:                #f64646 !default;
+$primary-dark:           #205493 !default;
+
+// Secondary Colors
+$secondary:              #445057 !default;
+$secondary-dark:         #cd2026 !default;
+$secondary-light:        #e59393 !default;
+
+// Messages Colors
+$successMessage:  #155724 !default;
+$successMessageBg:  #d4edda !default;
+
+$body-bg:    #fff !default;
+
+$link-color:            rgba(73, 80, 87);
+$primary-border-color: #ced4da !default;
+$button-bg-blue-color : #447fe2 !default;
+
+
+// -----------------------------------------------------------------------------
+// Typography Settings
+// -----------------------------------------------------------------------------
+
+$font-family-sans-serif: 'Lexend Deca', sans-serif;
+$font-family-base:       $font-family-sans-serif !default;
+$line-height-base: 1.5 !default;
+
+$font-size-root: 16px !default;
+$font-size-base: 1rem !default;
+
+$title-bottom-space:     0.5rem !default;
+$paragraph-bottom-space: 1rem !default;
+$list-bottom-space:      1rem !default;

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Figo Case Study || Faturalarım</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="o-header">
+    <div class="o-container">
+      <div class="o-header__wrapper">
+        <div class="o-header__row">
+          <div class="o-header__menu">
+            <ul>
+              <li>
+                <a href="invoice.html">Faturalarım</a>
+              </li>
+            </ul>
+          </div>
+          <div class="o-header__logo">
+            <img class="o-header__img" src="./images/content/logo.png.webp">
+          </div>
+          <div class="o-header__auth">
+            <a href="#" id="js-logout">Çıkış Yap</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-wrapper">
+    <div class="o-page-content">
+      <div class="c-table">
+        <div class="o-container">
+          <h1>Faturalarınız</h1>
+          <p>* İskonto indirimi için fatura seçimi yapınız</p>
+          <div class="c-table__wrapper">
+            <table id="js-table-invoice" class="display c-table__area">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Id</th>
+                  <th>Gönderenin adı</th>
+                  <th>ReceiverName</th>
+                  <th>ProfileId</th>
+                  <th>InsertedDate</th>
+                  <th>InvoiceTypeCode</th>
+                  <th>PayableAmount</th>
+                  <th>PayableAmountCurrency</th>
+                </tr>
+              </thead>
+              <tbody id="c-table__listing"></tbody>
+            </table>
+            <a href="#" class="c-button c-button--primary" id="js-discount">İskonto Talebi</a>
+            <span class="c-table__total">
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

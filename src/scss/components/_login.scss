@@ -1,0 +1,16 @@
+.c-login{
+    &__card{
+        width: 100%;
+        @include respond-to-up('sm'){
+            width: 30%;
+        }
+        margin: 0 auto;
+        box-shadow: 0 4px 9px -2px rgb(0 0 0 / 15%);
+        background: #fff;
+        padding: 24px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
